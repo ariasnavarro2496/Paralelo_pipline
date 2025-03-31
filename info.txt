@@ -1,0 +1,23 @@
+Bienvenido al curso de cypress
+
+1.- npm init
+2.- npm install cypress --save-dev --> Instalacion
+3.- npx cypress open ---- INICIAR
+    node_modules\.bin\cypress open
+4.- npm install -D cypress-plugin-tab
+5.- para consola ctrl+c    
+
+6.-  npm install --save-dev cypress-cucumber-preprocessor --> INSTALAR CUCUMBER
+7.- npm install cypress @badeball/cypress-cucumber-preprocessor --save-dev
+
+INSTALAR PLUGIN cypress-xpath
+
+1.- npm install -D cypress-xpath
+2.- importar cypress
+import 'cypress-xpath';
+
+
+FUNCIONES 
+
+- TOMAR OBJETO POR NOMBRE + SIMULAR ENTER
+cy.get("[name = 'NOMBRE DEL ELEMENTO']").type("TEXTO A INGRESAR {enter}" )

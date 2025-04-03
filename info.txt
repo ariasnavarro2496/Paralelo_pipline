@@ -17,7 +17,12 @@ INSTALAR PLUGIN cypress-xpath
 import 'cypress-xpath';
 
 
+npx cypress run --record --key e9501a5a-c07a-4e54-82b5-9e37c69623bc
+
 FUNCIONES 
 
 - TOMAR OBJETO POR NOMBRE + SIMULAR ENTER
 cy.get("[name = 'NOMBRE DEL ELEMENTO']").type("TEXTO A INGRESAR {enter}" )
+
+
+npx cypress run --record --key 34c171e1-23a5-4654-9cc6-0fecc25d82c9

@@ -9,7 +9,7 @@ describe ('Curso de cypress seccion 1', () => {
             cy.visit('http://172.17.227.70:2080/ecommunications_VTR_esn/start.swe?SWECmd=Login&SWEBHWND=1&SRN=&SWEHo=172.17.227.70&SWETS=1712839838');
             cy.get("#s_swepi_1").type("skim");  //ingresar usuario
             cy.get("#s_swepi_2").type("skim");  //ingresar contraseña
-            cy.wait(2000);
+            cy.wait(30000);
             cy.get("#s_swepi_22").click(); //click en boton de login
             Cypress.on('uncaught:exception', (err, runnable) => {
                 // Retorna false para evitar que Cypress falle la prueba por este error
